@@ -65,7 +65,7 @@ class _HalamanUtamaState extends State<HalamanUtama> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'KOPDES',
+          'KOPDES - Hasil Panen',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         leading: const Icon(Icons.agriculture),
