@@ -10,7 +10,13 @@ class HalamanUtama extends StatefulWidget {
 }
 
 class _HalamanUtamaState extends State<HalamanUtama> {
-  TextEditingController controller = TextEditingController();
+  late TextEditingController controller;
+
+  @override
+  void initState() {
+    super.initState();
+    controller = TextEditingController();
+  }
 
   @override
   void dispose() {
